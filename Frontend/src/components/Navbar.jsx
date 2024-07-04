@@ -97,7 +97,7 @@ function Navbar() {
 
                             {/* sun icon */}
                             <svg className="swap-off fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+                                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
                             >
 
 
@@ -106,7 +106,7 @@ function Navbar() {
 
                             {/* moon icon */}
                             <svg className="swap-on fill-current w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                                onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                             >
 
 
